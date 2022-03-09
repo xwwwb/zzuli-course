@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
-import './index.css'
+// 这里是每一个小格子
 export default class index extends Component {
   render() {
     return (
-      <div id="nav">zzuli课表</div>
+      <div>index</div>
     )
   }
 }

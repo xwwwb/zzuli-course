@@ -1,0 +1,12 @@
+.week{
+  font-size: 40px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 40px 0px 100px ;
+}
+
+
+/* 除去空白的几个 */
+.week > div:nth-child(n){
+  font-size: 40px;
+}

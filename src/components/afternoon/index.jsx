@@ -1,9 +1,10 @@
 import React, { Component } from 'react'
-import './index.css'
+
+// 这里是下午的课表
 export default class index extends Component {
   render() {
     return (
-      <div id="nav">zzuli课表</div>
+      <div>下午</div>
     )
   }
 }
