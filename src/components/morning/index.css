@@ -8,12 +8,12 @@
 .morn > div {
 	font-size: 40px;
 	text-align: center;
-	border: solid 1px gainsboro;
+	border: solid 1px #F5F5F4;
 }
 .morn > div:nth-child(1) {
 	flex: 1;
   font-size: 28px;
-	border-left: 0;
+	/* border-left: 0; */
 }
 .morn > div:nth-child(n + 2) {
 	flex: 2;
