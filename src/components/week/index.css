@@ -1,5 +1,6 @@
 .week {
-	font-size: 40px;
+	height: 3vh;
+	font-size: 3vh;
 	display: flex;
 	justify-content: space-between;
 	/* padding: 0px 40px 0px 40px ; */

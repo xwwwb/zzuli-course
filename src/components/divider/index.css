@@ -1,8 +1,8 @@
 .divider{
-  height: 50px;
+  height: 3vh;
   background-color: #F5F5F4;
   text-align: center;
-  line-height: 50px;
-  font-size: 40px;
+  line-height: 3vh;
+  font-size: 30px;
   color: #B7B7B7;
 }

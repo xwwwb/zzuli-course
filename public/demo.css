@@ -10,7 +10,7 @@
 	width: 100vw;
 	scroll-snap-align: start;
 	flex-shrink: 0;
-	font-size: 100px;
+
 }
 body {
 	margin: 0;

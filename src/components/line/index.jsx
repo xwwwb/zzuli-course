@@ -1,15 +1,15 @@
 import React, { Component } from "react"
-import "./index.css"
 import Item from "../item"
 // 这里是上午的课表
 export default class index extends Component {
 	render() {
 		return (
 			<>
-				<div className="morn">
-					<div>第一节</div>
-					<div>
-						<Item />
+				<div className="line">
+					<div className="sideBar">
+					<div>1</div>
+					<div>08:00</div>
+					<div>09:40</div>
 					</div>
 					<div>
 						<Item />
@@ -23,26 +23,11 @@ export default class index extends Component {
 					<div>
 						<Item />
 					</div>
+					<div>
+						<Item />
+					</div>
 				</div>
-				<div className="morn">
-				<div>第二节</div>
-				<div>
-					<Item />
-				</div>
-				<div>
-					<Item />
-				</div>
-				<div>
-					<Item />
-				</div>
-				<div>
-					<Item />
-				</div>
-				<div>
-					<Item />
-				</div>
-				
-			</div>
+	
 			</>
 		)
 	}
