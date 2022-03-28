@@ -6,7 +6,6 @@ import getItemConfig from '../../utils/getItemConfig'
 export default class index extends Component {
   render() {
     let color1 = randomBackGround()
-    let color2 = randomBackGround()
     const { week, time, day } = this.props
     let config = getItemConfig(week, time, day)
 
