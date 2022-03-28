@@ -3,8 +3,8 @@ import Nav from "./components/nav"
 function App() {
   return (
     <>
-    <Nav/>
-    <Main/>
+      <Nav />
+      <Main />
     </>
   );
 }

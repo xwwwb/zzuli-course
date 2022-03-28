@@ -5,14 +5,14 @@
   color:#4363AF
 }
 .item > div:nth-child(1){
-  font-size: 0.8em;
+  font-size: 0.7em;
   text-align: left;
 }
 .item > div:nth-child(2){
-  font-size: 0.6em;
+  font-size: 0.5em;
   text-align: left;
 }
 .item > div:nth-child(3){
-  font-size: 0.6em;
+  font-size: 0.5em;
   text-align: left;
 }

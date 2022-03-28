@@ -1,13 +1,18 @@
 import React, { Component } from "react"
 import Section from "../section"
 export default class Main extends Component {
+	state = {
+		weekCount: 18,
+	}
 	render() {
+
+		let items = []
+		for (let i = 0; i < this.state.weekCount; i++) {
+			items.push(<Section key={i} week={i + 1} />)
+		}
 		return (
-			<div id="main">
-				<Section>内容一</Section>
-				<Section>内容二</Section>
-				<Section>内容三</Section>
-				<Section>内容四</Section>
+			<div id="main" >
+				{items}
 			</div>
 		)
 	}
