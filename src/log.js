@@ -10,7 +10,8 @@ let log = [
     ],
     day: 1,
     sections: [1, 2],
-    color: '#E9E7FE'
+    bgColor: '#FAE6C1',
+    fontColor: '#F19D3E'
   },
   {
     name: '计算机网络A',
@@ -23,7 +24,8 @@ let log = [
     ],
     day: 4,
     sections: [1, 2],
-    color: '#E9E7FE'
+    bgColor: '#E3ECFD',
+    fontColor: '#5178EE'
   },
   {
     name: '数据库系统原理',
@@ -35,7 +37,8 @@ let log = [
     ],
     day: 5,
     sections: [1, 2],
-    color: '#E3ECFD'
+    bgColor: '#E3ECFD',
+    fontColor: '#5178EE'
   },
   {
     name: '计算机组成原理',
@@ -48,7 +51,8 @@ let log = [
     ],
     day: 3,
     sections: [3, 4],
-    color: '#E9E7FE'
+    bgColor: '#FBE6D6',
+    fontColor: '#E75D37'
   },
   {
     name: '计算机组成原理',
@@ -61,7 +65,8 @@ let log = [
     ],
     day: 1,
     sections: [3, 4],
-    color: '#FBE6D6'
+    bgColor: '#D7FBF5',
+    fontColor: '#3EA6B4'
   },
   {
     name: '数据结构',
@@ -74,7 +79,8 @@ let log = [
     ],
     day: 2,
     sections: [3, 4],
-    color: '#FAE6C1'
+    bgColor: '#E3ECFD',
+    fontColor: '#5178EE'
   },
   {
     name: '数据结构',
@@ -87,7 +93,8 @@ let log = [
     ],
     day: 4,
     sections: [3, 4],
-    color: '#FBE6D6'
+    bgColor: '#FAE6C1',
+    fontColor: '#F19D3E'
   },
   {
     name: '计算机网络A',
@@ -100,7 +107,8 @@ let log = [
     ],
     day: 2,
     sections: [5, 6],
-    color: '#FBE6D6'
+    bgColor: '#D7FBF5',
+    fontColor: '#3EA6B4'
   },
   {
     name: '数据库系统原理',
@@ -113,7 +121,8 @@ let log = [
     ],
     day: 3,
     sections: [5, 6],
-    color: '#E3ECFD'
+    bgColor: '#E9E7FE',
+    fontColor: '#6E63DB'
   },
   {
     name: 'FPGA系统设计(硬件设计方向）',
@@ -126,7 +135,8 @@ let log = [
     ],
     day: 5,
     sections: [5, 6],
-    color: '#D7FBF5'
+    bgColor: '#FAE6C1',
+    fontColor: '#F19D3E'
   },
   {
     name: '大学语文',
@@ -138,7 +148,8 @@ let log = [
     ],
     day: 3,
     sections: [9, 10],
-    color: '#E9E7FE'
+    bgColor: '#E9E7FE',
+    fontColor: '#6E63DB'
   },
   {
     name: '大学英语A4',
@@ -147,7 +158,8 @@ let log = [
     weeks: [2, 4, 6, 8, 10],
     day: 5,
     sections: [3, 4],
-    color: '#D7FBF5'
+    bgColor: '#FAE6C1',
+    fontColor: '#F19D3E'
   },
   {
     name: '马克思主义基本原理',
@@ -160,7 +172,8 @@ let log = [
     ],
     day: 2,
     sections: [1, 2],
-    color: '#E9E7FE'
+    bgColor: '#D7FBF5',
+    fontColor: '#3EA6B4'
   },
   {
     name: '马克思主义基本原理',
@@ -169,7 +182,8 @@ let log = [
     weeks: [5, 7, 11, 13, 15],
     day: 5,
     sections: [3, 4],
-    color: '#FAE6C1'
+    bgColor: '#FBE6D6',
+    fontColor: '#E75D37'
   },
   {
     name: '大学英语六级',
@@ -182,7 +196,8 @@ let log = [
     ],
     day: 3,
     sections: [7, 8],
-    color: '#D7FBF5'
+    bgColor: '#FAE6C1',
+    fontColor: '#F19D3E'
   },
   {
     name: '形势与政策4',
@@ -191,7 +206,8 @@ let log = [
     weeks: [5, 6, 7, 8],
     day: 1,
     sections: [9, 10],
-    color: '#E3ECFD'
+    bgColor: '#E9E7FE',
+    fontColor: '#6E63DB'
   }
 ]
 

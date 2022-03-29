@@ -114,31 +114,32 @@ let log = [{
 let getColor = () => {
   let num = Math.floor(Math.random() * 10 + 1)
   if (num === 1) {
-    return "#FAE6C1"
+    return ["#FAE6C1", "#F19D3E"]
   } else if (num === 2) {
-    return "#FAE6C1"
+    return ["#FAE6C1", "#F19D3E"]
   } else if (num === 3) {
-    return "#E3ECFD"
+    return ["#E3ECFD", "#5178EE"]
   } else if (num === 4) {
-    return "#E3ECFD"
+    return ["#E3ECFD", "#5178EE"]
   } else if (num === 5) {
-    return "#FBE6D6"
+    return ["#FBE6D6", "#E75D37"]
   } else if (num === 6) {
-    return "#FBE6D6"
+    return ["#FBE6D6", "#E75D37"]
   } else if (num === 7) {
-    return "#D7FBF5"
+    return ["#D7FBF5", "#3EA6B4"]
   } else if (num === 8) {
-    return "#D7FBF5"
+    return ["#D7FBF5", "#3EA6B4"]
   } else if (num === 9) {
-    return "#E9E7FE"
+    return ["#E9E7FE", "#6E63DB"]
   } else if (num === 10) {
-    return "#E9E7FE"
+    return ["#E9E7FE", "#6E63DB"]
   }
 }
 
 let newLog = log.map(item => {
-  // console.log(item)
-  item.color = getColor()
+  let colorList = getColor()
+  item.bgColor = colorList[0]
+  item.fontColor = colorList[1]
   return item
 })
 

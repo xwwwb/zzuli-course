@@ -18,7 +18,7 @@ export default class Main extends Component {
 		let pageWitdh = document.body.clientWidth
 		let nowWeek = ((this.myRef.current.scrollLeft / pageWitdh) + 1).toFixed(0)
 		if (nowWeek !== this.state.handling) {
-			console.log("切换啦")
+			// console.log("切换啦")
 			this.setState({ handling: nowWeek })
 			this.props.handleWeekChanges(nowWeek)
 		}
