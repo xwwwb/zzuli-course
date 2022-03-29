@@ -4,7 +4,8 @@ import Section from "../section"
 export default class Main extends Component {
 	state = {
 		weekCount: 18,
-		nowWeek: 6
+		nowWeek: 6,
+		handling: -1
 	}
 	myRef = React.createRef()
 
@@ -13,9 +14,12 @@ export default class Main extends Component {
 		this.myRef.current.scrollLeft = (this.state.nowWeek - 1) * (document.body.clientWidth)
 	}
 	handleScroll = (e) => {
+
 		let pageWitdh = document.body.clientWidth
-		let nowWeek = (this.myRef.current.scrollLeft / pageWitdh) + 1
-		if (nowWeek % 1 === 0) {
+		let nowWeek = ((this.myRef.current.scrollLeft / pageWitdh) + 1).toFixed(0)
+		if (nowWeek !== this.state.handling) {
+			console.log("切换啦")
+			this.setState({ handling: nowWeek })
 			this.props.handleWeekChanges(nowWeek)
 		}
 	}
@@ -28,7 +32,6 @@ export default class Main extends Component {
 		}
 		return (
 			<>
-
 				<div id="main" ref={this.myRef} onScroll={this.handleScroll} >
 					{items}
 				</div>
