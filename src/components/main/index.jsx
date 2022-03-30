@@ -5,13 +5,14 @@ export default class Main extends Component {
 	state = {
 		weekCount: 18,
 		nowWeek: 6,
-		handling: -1
+		handling: -99
 	}
 	myRef = React.createRef()
 
 	componentDidMount() {
 		// 这里的宽度显示980 很奇怪
 		this.myRef.current.scrollLeft = (this.state.nowWeek - 1) * (document.body.clientWidth)
+		this.props.handleWeekChanges(this.state.nowWeek)
 	}
 	handleScroll = (e) => {
 
