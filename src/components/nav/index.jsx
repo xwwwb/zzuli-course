@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+
 import './index.css'
 
 export default class Nav extends Component {
@@ -8,8 +9,9 @@ export default class Nav extends Component {
   render() {
     return (
       <>
-        <div class="nav" id={this.props.weekCount} onClick={this.handleClick}>第{this.props.weekCount}周</div>
+        <div className="nav" id={this.props.weekCount} onClick={this.handleClick}>第{this.props.weekCount}周</div>
       </>
     )
   }
 }
+
