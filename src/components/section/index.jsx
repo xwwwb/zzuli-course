@@ -3,17 +3,13 @@ import './index.css'
 import Divider from '../divider'
 import Week from '../week'
 import Line from '../line'
+import Nav from '../nav'
 // 这里存的是横版翻页的每一页
 export default class Section extends Component {
-
-  state = {
-
-  }
-
   render() {
     return (
-      <div className="section" id={this.props.week}>
-
+      <div className="section" >
+        <Nav weekCount={this.props.week} id={this.props.week} />
         <Week />
         <Line week={this.props.week} time={1} courseCount={1} time_1={"08:00"} time_2={"09:40"} />
         <Line week={this.props.week} time={3} courseCount={2} time_1={"10:00"} time_2={"11:40"} />
