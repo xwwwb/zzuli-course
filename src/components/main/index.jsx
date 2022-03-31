@@ -16,6 +16,10 @@ export default class Main extends Component {
 		this.myRef.current.scrollLeft = (this.state.nowWeek - 1) * (document.body.clientWidth)
 		// 这行是向nav组件传递当前周
 		this.props.handleWeekChanges(this.state.nowWeek)
+		setTimeout(() => {
+			console.log("这里是定时器 定时器放在生命周期函数中")
+		}, 10000)
+
 	}
 	handleScroll = (e) => {
 
