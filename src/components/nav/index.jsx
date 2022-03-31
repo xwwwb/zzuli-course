@@ -3,7 +3,7 @@ import './index.css'
 
 export default class Nav extends Component {
   handleClick = () => {
-
+    
   }
   render() {
     return (

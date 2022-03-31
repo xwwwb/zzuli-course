@@ -12,7 +12,8 @@ export default class Section extends Component {
 
   render() {
     return (
-      <div className="section">
+      <div className="section" id={this.props.week}>
+
         <Week />
         <Line week={this.props.week} time={1} courseCount={1} time_1={"08:00"} time_2={"09:40"} />
         <Line week={this.props.week} time={3} courseCount={2} time_1={"10:00"} time_2={"11:40"} />

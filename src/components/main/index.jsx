@@ -11,18 +11,18 @@ export default class Main extends Component {
 
 	componentDidMount() {
 
-		setTimeout(() => {
-			console.log("这里是定时器 定时器放在生命周期函数中")
-			console.log("这里执行Main的componentDidMount")
-			// 这里的宽度显示980 很奇怪
-			// 加载网页时执行滚动到当前周
-			this.myRef.current.scrollLeft = (this.state.nowWeek - 1) * (document.body.clientWidth)
-			// 这行是向nav组件传递当前周
-			this.props.handleWeekChanges(this.state.nowWeek)
-		})
+		console.log("这里执行Main的componentDidMount")
+		// 这里的宽度显示980 很奇怪
+		// 加载网页时执行滚动到当前周
+		// this.myRef.current.scrollLeft = (this.state.nowWeek - 1) * (document.body.clientWidth)
+		let url = "#" + this.state.nowWeek
+		window.location.href = url;
+		// 这行是向nav组件传递当前周
+		this.props.handleWeekChanges(this.state.nowWeek)
+
 
 	}
-	handleScroll = (e) => {
+	handleScroll = () => {
 
 		let pageWitdh = document.body.clientWidth
 		let nowWeek = ((this.myRef.current.scrollLeft / pageWitdh) + 1).toFixed(0)
