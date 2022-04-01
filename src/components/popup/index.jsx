@@ -1,9 +1,26 @@
 import React, { Component } from 'react'
 import { Picker, Popup } from 'react-vant';
-
+import './index.css'
 export default class PopupForm extends Component {
   state = {
-    columns: ['南京', '苏州', '常州', '淮安', '扬州', '南通', '宿迁', '泰州', '无锡'],
+    columns: ['第1周',
+      '第2周',
+      '第3周',
+      '第4周',
+      '第5周',
+      '第6周',
+      '第7周',
+      '第8周',
+      '第9周',
+      '第10周',
+      '第11周',
+      '第12周',
+      '第13周',
+      '第14周',
+      '第15周',
+      '第16周',
+      '第17周',
+      '第18周'],
   }
 
   handleClose = () => {
@@ -14,12 +31,14 @@ export default class PopupForm extends Component {
     return (
       <Popup round visible={this.props.showPopup} position="bottom" onClose={this.handleClose}>
         <Picker
-          title="标题"
+          title="选择周"
           columns={this.state.columns}
           onConfirm={(value) => {
-            console.log(value)
+            let pickWeek = value.match(/\d+/g)[0]
+            console.log(pickWeek)
             this.handleClose()
           }}
+          itemHeight={120}
         />
       </Popup>)
   }
