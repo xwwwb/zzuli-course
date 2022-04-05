@@ -22,6 +22,8 @@ export default class Main extends Component {
 	componentDidMount() {
 		let url = "#" + this.state.nowWeek
 		window.location.href = url;
+		console.log("build data:2022-4-5 22:08:00")
+		console.log("@xwwwb")
 	}
 
 
