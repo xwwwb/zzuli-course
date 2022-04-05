@@ -35,7 +35,7 @@ export default class PopupForm extends Component {
           columns={this.state.columns}
           onConfirm={(value) => {
             let pickWeek = value.match(/\d+/g)[0]
-            console.log(pickWeek)
+            window.location.href = '#' + pickWeek
             this.handleClose()
           }}
           itemHeight={120}
