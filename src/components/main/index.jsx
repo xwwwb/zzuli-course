@@ -4,7 +4,7 @@ import PopupForm from '../popup'
 export default class Main extends Component {
 	state = {
 		weekCount: 18,
-		nowWeek: 6,
+		nowWeek: 7,
 		showPopup: false
 	}
 
