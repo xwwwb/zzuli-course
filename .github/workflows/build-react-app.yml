@@ -36,5 +36,5 @@ jobs:
         username: ${{ secrets.username }}
         password: ${{ secrets.password }}
         local-dir: ./build/
-        dangerous-clean-slate: false
+        dangerous-clean-slate: true
         server-dir: ./
