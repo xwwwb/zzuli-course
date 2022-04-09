@@ -31,6 +31,7 @@ export default class PopupForm extends Component {
     return (
       <Popup round visible={this.props.showPopup} position="bottom" onClose={this.handleClose}>
         <Picker
+          defaultIndex={this.props.showWeek - 1}
           title="选择周"
           columns={this.state.columns}
           onConfirm={(value) => {
