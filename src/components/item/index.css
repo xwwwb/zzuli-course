@@ -1,18 +1,21 @@
-.item{
-  height: 12vh; 
+.item {
+  height: 12vh;
   border-radius: 10px;
-  padding: 20px 15px 20px 15px;
-  color:#4363AF
+  padding: 4px 3px 4px 3px;
+  color: #4363AF
 }
-.item > div:nth-child(1){
-  font-size: 0.7em;
+
+.item>div:nth-child(1) {
+  font-size: 2px;
   text-align: left;
 }
-.item > div:nth-child(2){
-  font-size: 0.5em;
+
+.item>div:nth-child(2) {
+  font-size: 1px;
   text-align: left;
 }
-.item > div:nth-child(3){
-  font-size: 0.5em;
+
+.item>div:nth-child(3) {
+  font-size: 1px;
   text-align: left;
 }

@@ -39,7 +39,7 @@ export default class PopupForm extends Component {
             window.location.href = '#' + pickWeek
             this.handleClose()
           }}
-          itemHeight={120}
+          itemHeight={50}
         />
       </Popup>)
   }

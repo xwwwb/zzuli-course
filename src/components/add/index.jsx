@@ -1,10 +1,11 @@
 import React, { Component } from 'react'
 import { Plus } from '@react-vant/icons';
+import { Link } from 'react-router-dom';
 import './index.css'
 export default class AddButton extends Component {
   render() {
     return (
-      <div className='add'><Plus fontSize="60px" color="#5578EA" /></div>
+      <Link to="/setting"><div className='add'><Plus fontSize="60px" color="#5578EA" /></div></Link>
     )
   }
 }

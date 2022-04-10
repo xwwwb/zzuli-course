@@ -1,29 +1,31 @@
-.section{
-  display: flex;
-  flex-direction: column;
+.section {
+	display: flex;
+	flex-direction: column;
 }
 
 .line {
-	font-size: 40px;
+	/* font-size: 20px; */
 	display: flex;
 	justify-content: space-between;
 }
 
-.line > div {
+.line>div {
 	text-align: center;
 	border: solid 1px #F5F5F4;
 }
-.line > div:nth-child(1) {
+
+.line>div:nth-child(1) {
 	flex: 1;
-  font-size: 28px;
+	font-size: 2px;
 }
-.line > div:nth-child(n + 2) {
+
+.line>div:nth-child(n + 2) {
 	flex: 2;
 	padding: 3px;
 }
 
-.sideBar{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+.sideBar {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
