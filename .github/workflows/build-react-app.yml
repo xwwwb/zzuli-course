@@ -26,8 +26,8 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-    - run: npm ci
-    - run: CI=false npm run build
+    - run: npm install yarn -g
+    - run: yarn && yarn build
 
     - name: FTP Deploy
       uses: SamKirkland/FTP-Deploy-Action@4.0.0
