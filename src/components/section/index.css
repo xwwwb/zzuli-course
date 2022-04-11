@@ -16,7 +16,7 @@
 
 .line>div:nth-child(1) {
 	flex: 1;
-	font-size: 2px;
+	font-size: 10px;
 }
 
 .line>div:nth-child(n + 2) {

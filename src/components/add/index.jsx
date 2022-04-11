@@ -5,7 +5,7 @@ import './index.css'
 export default class AddButton extends Component {
   render() {
     return (
-      <Link to="/setting"><div className='add'><Plus fontSize="60px" color="#5578EA" /></div></Link>
+      <Link to="/setting"><div className='add'><Plus fontSize="30px" color="#5578EA" /></div></Link>
     )
   }
 }
