@@ -5,7 +5,7 @@ import AddButton from "../add"
 export default class Main extends Component {
 	state = {
 		weekCount: 18,
-		nowWeek: 8,
+		nowWeek: 9,
 		showPopup: false,
 		showWeek: null
 	}
